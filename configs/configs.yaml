@@ -1,0 +1,11 @@
+sample_rate: 40000
+min_segment_sec: 0.5
+max_segment_sec: 15.0
+vad_threshold: 0.5
+
+paths:
+  input_raw: input_raw
+  denoise: work/denoise
+  vad_segments: work/vad_segments
+  manifests: work/manifests
+  output_wavs: output_dataset/wavs
